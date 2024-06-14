@@ -1,0 +1,22 @@
+{
+  "name": "lab-project-management",
+  "version": "1.0.0",
+  "description": "Welcome to the ExpressJS & MongoDB lab! In this exercise, you'll be creating an Express app with a MongoDB connection. The purpose of this lab is to get you familiar with setting up an Express server, handling routes, using MongoDB for data persistence, and defining models with Mongoose. Follow the instructions below carefully, and don't hesitate to ask for help if you get stuck.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.4.1",
+    "morgan": "^1.10.0"
+  }
+}
